@@ -1,0 +1,12 @@
+{
+  "base_token": "VlEDbwedIaZxoqseDAUccMB6nQd",
+  "table_id": "tblu45c5VOTkblOj",
+  "url": "https://rcn1ey8vkhdz.feishu.cn/base/VlEDbwedIaZxoqseDAUccMB6nQd?table=tblu45c5VOTkblOj&view=vewSA2MxfV",
+  "scope": "all_records",
+  "fields": {
+    "company": "fldcny52QY", "roles": "fld4kj2DNi", "cities": "fldvVWRz8L",
+    "years": "fldJOs0cBF", "recruitment": "fldpS6wle0", "industry": "fldtFPTIKh",
+    "test": "fldgb8mlDo", "deadline": "fldiTMba5T", "updated": "fldVr32bC3",
+    "application": "fldC5XfpGM", "announcement": "fldHFEAlZ2", "notes": "fldqluZnPG"
+  }
+}

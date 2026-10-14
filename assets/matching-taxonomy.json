@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "role_categories": {
+    "软件开发": {
+      "skills": ["Python", "Java", "C++", "Go", "JavaScript", "SQL", "Git"],
+      "direct_major_groups": ["计算机"],
+      "adjacent_role_categories": ["数据", "测试", "运维"]
+    },
+    "数据": {
+      "skills": ["Python", "SQL", "Excel", "机器学习", "数据分析"],
+      "direct_major_groups": ["计算机", "数学统计"],
+      "adjacent_role_categories": ["软件开发", "产品"]
+    },
+    "测试": {
+      "skills": ["Python", "自动化测试", "Linux", "Git"],
+      "direct_major_groups": ["计算机"],
+      "adjacent_role_categories": ["软件开发", "运维"]
+    },
+    "运维": {
+      "skills": ["Linux", "Python", "Shell", "Docker", "网络"],
+      "direct_major_groups": ["计算机", "电子信息"],
+      "adjacent_role_categories": ["软件开发", "测试"]
+    },
+    "芯片设计": {
+      "skills": ["Verilog", "SystemVerilog", "FPGA", "C", "数字电路"],
+      "direct_major_groups": ["微电子", "电子信息"],
+      "adjacent_role_categories": ["硬件研发", "嵌入式"]
+    },
+    "硬件研发": {
+      "skills": ["C", "FPGA", "电路设计", "PCB", "示波器"],
+      "direct_major_groups": ["电子信息", "自动化", "微电子"],
+      "adjacent_role_categories": ["芯片设计", "嵌入式"]
+    },
+    "嵌入式": {
+      "skills": ["C", "C++", "Linux", "单片机", "RTOS"],
+      "direct_major_groups": ["电子信息", "自动化", "计算机"],
+      "adjacent_role_categories": ["硬件研发", "软件开发"]
+    },
+    "产品": {
+      "skills": ["需求分析", "原型设计", "数据分析", "SQL"],
+      "direct_major_groups": ["管理", "计算机"],
+      "adjacent_role_categories": ["运营", "数据"]
+    },
+    "运营": {
+      "skills": ["Excel", "活动策划", "内容运营", "数据分析"],
+      "direct_major_groups": ["市场营销", "管理", "新闻传播"],
+      "adjacent_role_categories": ["市场营销", "产品"]
+    },
+    "市场营销": {
+      "skills": ["Excel", "活动策划", "市场调研", "文案"],
+      "direct_major_groups": ["市场营销", "管理", "新闻传播"],
+      "adjacent_role_categories": ["运营", "销售"]
+    },
+    "销售": {
+      "skills": ["客户沟通", "商务拓展", "Excel"],
+      "direct_major_groups": ["市场营销", "管理"],
+      "adjacent_role_categories": ["市场营销", "运营"]
+    },
+    "职能": {
+      "skills": ["Excel", "沟通协调", "文档写作"],
+      "direct_major_groups": ["管理", "人文社科"],
+      "adjacent_role_categories": []
+    }
+  },
+  "major_groups": {
+    "计算机": ["计算机科学与技术", "软件工程", "网络工程", "信息安全", "人工智能"],
+    "数学统计": ["数学", "应用数学", "统计学", "数据科学"],
+    "微电子": ["微电子科学与工程", "集成电路", "集成电路设计与集成系统"],
+    "电子信息": ["电子信息工程", "通信工程", "电子科学与技术"],
+    "自动化": ["自动化", "电气工程及其自动化", "测控技术与仪器"],
+    "市场营销": ["市场营销", "广告学"],
+    "管理": ["工商管理", "电子商务", "信息管理与信息系统", "人力资源管理"],
+    "新闻传播": ["新闻学", "传播学", "网络与新媒体"],
+    "人文社科": ["汉语言文学", "法学", "社会学", "行政管理"]
+  },
+  "industry_aliases": {
+    "互联网": ["互联网", "软件", "电子商务"],
+    "科技": ["科技", "信息技术", "IT"],
+    "半导体": ["半导体", "芯片", "集成电路"],
+    "制造": ["制造", "工业", "智能制造"],
+    "金融": ["金融", "银行", "证券", "保险"]
+  },
+  "city_aliases": {
+    "北京": ["北京", "北京市"],
+    "上海": ["上海", "上海市"],
+    "广州": ["广州", "广州市"],
+    "深圳": ["深圳", "深圳市"],
+    "杭州": ["杭州", "杭州市"],
+    "南京": ["南京", "南京市"]
+  }
+}

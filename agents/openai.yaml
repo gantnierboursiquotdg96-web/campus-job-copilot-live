@@ -1,0 +1,4 @@
+interface:
+  display_name: "校招求职作战助手"
+  short_description: "面向2026、2027届毕业生的岗位匹配与投递管理助手"
+  default_prompt: "使用 $campus-job-copilot 根据我的简历推荐校招岗位并制定未来7天投递计划。"
